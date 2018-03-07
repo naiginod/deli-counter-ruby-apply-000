@@ -11,13 +11,10 @@ def line(arr)
   end 
 end
 
+last_num = 0
+
 def take_a_number(current_line)
-  if current_line.empty?
-    current_line[0] = 1
-  else
-    last_num = current_line[-1]
-  end
-  current_line.push(last_num + 1)
+  current_line.push(last_num += 1)
 end
 
 def now_serving(current_line)

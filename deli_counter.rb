@@ -11,7 +11,7 @@ def line(arr)
   end 
 end
 
-def take_a_number(current_line, name)
+def take_a_number(current_line, num)
   
 end
 
